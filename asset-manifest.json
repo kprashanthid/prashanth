@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prashanth/my-app/static/css/main.b1d7ec7b.css",
+    "main.js": "/prashanth/my-app/static/js/main.894d8868.js",
+    "static/js/787.d4aba7ab.chunk.js": "/prashanth/my-app/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/prashanth/my-app/index.html",
+    "main.b1d7ec7b.css.map": "/prashanth/my-app/static/css/main.b1d7ec7b.css.map",
+    "main.894d8868.js.map": "/prashanth/my-app/static/js/main.894d8868.js.map",
+    "787.d4aba7ab.chunk.js.map": "/prashanth/my-app/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1d7ec7b.css",
+    "static/js/main.894d8868.js"
+  ]
+}
