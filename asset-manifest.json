@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/prashanth/my-app/static/css/main.b1d7ec7b.css",
-    "main.js": "/prashanth/my-app/static/js/main.894d8868.js",
-    "static/js/787.d4aba7ab.chunk.js": "/prashanth/my-app/static/js/787.d4aba7ab.chunk.js",
-    "index.html": "/prashanth/my-app/index.html",
-    "main.b1d7ec7b.css.map": "/prashanth/my-app/static/css/main.b1d7ec7b.css.map",
-    "main.894d8868.js.map": "/prashanth/my-app/static/js/main.894d8868.js.map",
-    "787.d4aba7ab.chunk.js.map": "/prashanth/my-app/static/js/787.d4aba7ab.chunk.js.map"
+    "main.css": "/prashanth/static/css/main.b1d7ec7b.css",
+    "main.js": "/prashanth/static/js/main.797fcc2c.js",
+    "static/js/787.d4aba7ab.chunk.js": "/prashanth/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/prashanth/index.html",
+    "main.b1d7ec7b.css.map": "/prashanth/static/css/main.b1d7ec7b.css.map",
+    "main.797fcc2c.js.map": "/prashanth/static/js/main.797fcc2c.js.map",
+    "787.d4aba7ab.chunk.js.map": "/prashanth/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1d7ec7b.css",
-    "static/js/main.894d8868.js"
+    "static/js/main.797fcc2c.js"
   ]
 }
