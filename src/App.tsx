@@ -1,15 +1,20 @@
-import React from 'react';
+
 import './App.css';
+import Sidenav from './components/Sidenav';
+import Mynav from './components/Sidenav';
+import { Topnav } from './components/Topnav';
 import { Mainpage } from './pages/Mainpage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Col, Container, Row } from 'react-bootstrap';
+
 
 function App() {
  return <>
-   <Mainpage/>
-       
 
+<Mainpage/>
+
+       
+  
   </>
 }
 

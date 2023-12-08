@@ -1,0 +1,160 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+/*side nav */
+.nav-bar{
+  background-color: 	rgb(54, 69, 79);
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 40px;
+  margin:40px 0px 0px 20px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 10PX;
+}
+.nav-list{
+  list-style: none;
+}
+.nav-items{
+  list-style: none;
+  color: white;
+  padding:22px;
+  border-radius: 20px;
+  width:180px;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.nav-items:hover{
+  font-weight: 700;
+  background-color:white;
+  color:black;
+  transition: 0.7s;
+}
+.nav-heading{
+  list-style: none;
+  color: white;
+  padding:22px;
+  border-radius: 20px;
+  width:180px;
+  font-weight: 700;
+}
+/*side nav  end*/
+/*top nav start */
+.topnav{
+  height: 200px;
+  width: 1250px;
+  border-radius: 40px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  margin-top: 40px;
+  position: sticky;
+  top: 10PX;
+  z-index: 1;
+}
+.profile-img{
+  border:6px solid white;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  margin: 20px 0px 20px 30px;
+
+}
+.profile-name{
+  font-size: 40px;
+  color:white;
+  font-weight: 700;
+
+ }
+.contact{
+margin:80px 10px 0px 400px;
+}
+.contactme{
+  background-color: black;
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 25px;
+  border-radius: 35px;
+}
+/* end top nav */
+/* start of cards */
+.project-image{
+  height: 200px;
+  object-fit: cover;
+}
+.card{
+  border-radius: 7px !important;
+  margin-left: 5px;
+}
+/*end project card*/
+/*Start skill card*/
+
+.skill-card{
+height: 180px !important;
+width: ;
+}
+.skill-cards{
+ margin: 40px 0px 0px 0px !important;
+}
+.skill-card{
+  padding: 20PX;
+  height: 300px !important;
+  
+}
+.skill-card-elements{
+  padding: 10PX;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* skill card end*/
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.about-me {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: white;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.intro strong {
+  color: #4CAF50; /* Green color for strong elements in intro */
+}
+
+.skills-section, .experience-section, .goals-section {
+  margin-bottom: 30px;
+}
+
+.skills-section ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.skills-section li {
+  margin-bottom: 10px;
+}
+
+/* Style other sections as needed */

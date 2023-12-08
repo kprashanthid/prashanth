@@ -11,9 +11,10 @@ cardcontent : string;
 export const Projects : React.FC <ProjectsProps> = ({Image,cardhead,cardcontent}) =>{
 
     return <>
-     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={Image} />
-      <Card.Body>
+   
+     <Card style={{width:'18rem' }} className='card'>
+      <Card.Img  variant="top" className='project-image'  src={Image} />
+      <Card.Body className='project'>
         <Card.Title>{cardhead}</Card.Title>
         <Card.Text>
          {cardcontent}
