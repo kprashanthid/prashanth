@@ -49,7 +49,7 @@ html,body{
 /*top nav start */
 .topnav{
   height: 200px;
-  width: 1250px;
+  width: auto;
   border-radius: 40px;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   margin-top: 40px;
@@ -97,7 +97,7 @@ margin:80px 10px 0px 400px;
 
 .skill-card{
 height: 180px !important;
-width: ;
+
 }
 .skill-cards{
  margin: 40px 0px 0px 0px !important;
@@ -118,7 +118,7 @@ width: ;
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+
   color: white;
 }
 
@@ -158,3 +158,74 @@ h1, h2 {
 }
 
 /* Style other sections as needed */
+/* trying responsive*/
+/* For small screens */
+@media screen and (max-width: 768px) {
+  /* Adjustments for side nav */
+  .nav-bar {
+    height: auto;
+    margin: 20px 0;
+    border-radius: 20px;
+  }
+  .nav-items {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  /* Adjustments for top nav */
+  .topnav {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: auto;
+  }
+  .profile-img {
+    margin: 10px auto;
+  }
+  .profile-name {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .contact {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .contactme {
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  /* Adjustments for cards and skill cards */
+  .project-image {
+    height: auto;
+  }
+  .card {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .skill-card {
+    height: auto !important;
+    padding: 15px;
+  }
+  .skill-cards {
+    margin-top: 20px !important;
+  }
+  .skill-card-elements {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Other responsive adjustments for sections, headings, etc. */
+  .about-me {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  h1, h2 {
+    font-size: 24px;
+  }
+  .intro {
+    font-size: 16px;
+  }
+}
